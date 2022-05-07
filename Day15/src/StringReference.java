@@ -1,0 +1,12 @@
+public class StringReference {
+    public static void main(String [] args){
+        String s1="abc";
+        String s2="xyz";
+        if(s1==s2){
+            System.out.println("Equals");
+        }
+        else{
+            System.out.println("Not Equals");
+        }
+    }
+}
